@@ -118,6 +118,16 @@ button
   border: 0;
 }
 
+.getButton{
+	margin-top: 20px;
+	margin-left: 45px;
+}
+.aplButton{
+	margin-top: 20px;
+	margin-left: 218px;
+}
+
+
 .select-normal{
 	width: 150px;
 }
