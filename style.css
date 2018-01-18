@@ -74,12 +74,32 @@ body{
 
 .price-top{
 	text-align: center;
-	height: 30px;
+	height: 35px;
 	background-color:rgb(255, 255, 255) ;
 }
+
+.price-items{
+	text-align: center;
+	height: 120px;
+	
+}
+
+
+
+.text-price-1{
+	font-size: 20px;
+	margin-left: 4px;
+	font-weight: 700;
+}
+
+
+.text-price-2{
+	margin-left: 4px;
+	font-weight: 8px;
+}
+
 .text-price{
-	position: absolute;
-	top: 30%;
+	
 	color: black;
 	font-size: 13px;
 	font-weight: 700;
@@ -87,8 +107,29 @@ body{
 .bg-light {
     background-color: #ffffff!important;
 }
+.all-cent{
+	position: absolute;
+    top: 40%;
+}
 
-@media (min-width: 992px) {
+button
+{
+	padding: 0;
+  border: 0;
+}
+
+.select-normal{
+	width: 150px;
+}
+.line{
+	background-color: #ffffff;
+	height: 10px;
+}
+.section-price{
+	height: 300px;
+}
+
+@media (min-width: 771px) {
 	.navbar-expand-lg .navbar-nav .nav-link {
 			padding-right: 1rem;
 			padding-left: 1rem;
@@ -112,8 +153,8 @@ body{
 	
 	
 }
-
-@media (max-width:991px) {
+/*991 */
+@media (max-width:770px) {
 	.navbar-nav.is-scrolling {
 			padding-bottom: 1rem;
 	}
@@ -125,4 +166,12 @@ body{
 		font-size: 10px;
 	}
 	
+    .price-top{
+	text-align: center;
+	height: 45px;
+	background-color:rgb(255, 255, 255) ;
+	}
+	.ima{
+		display: none;
+	}
 }
