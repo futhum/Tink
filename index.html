@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Shop cart page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script defer src="fontawesome-free-5.0.4/svg-with-js/js/fontawesome-all.js"></script>
     <link link="" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     
@@ -14,20 +15,27 @@
      <div class="top-bar ">
        <div class="container">
        <div class="row">
-         <div class="col-md-7">
+         <div class="col-8">
            <span class="text-contact">Contacts:</span>
            <span class="number">0088-234-567-890 </span> 
            <span class="text-contact">Opening hours:</span>
            <span class="number">Mon-Fri:  8:30am-6.30pm</span> 
          </div>
-         <div class="col-md-7">
-           2
+         <div class="col-4 ">
+            <span class="color-fa"><i class="fab fa-facebook-f"></i><span class="fa-margin"></span></span>
+            <span class="color-fa"><i class="fab fa-twitter"></i><span class="fa-margin"></span></span>
+            <span class="color-fa"><i class="fab fa-google-plus-g"></i><span class="fa-margin"></span></span>
+            <span class="color-fa"><i class="fab fa-instagram"></i><span class="fa-margin"></span></span>
+            <span class="color-fa"><i class="fab fa-pinterest-p"></i><span class="fa-margin"></span></span>
+            <span class="color-fa"><i class="fas fa-shopping-cart"></i><span class="fa-margin"></span></span> 
          </div>
          
        </div>
        </div>
      </div>
+     
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
         <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="img-fluid" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
                                 
@@ -53,7 +61,9 @@
             </li>  
           </ul>
         </div>
+        </div>
       </nav>
+    
   </div> 
   <div class="section">
     
@@ -171,10 +181,12 @@
       <div class="row">
          <div class="col-4">
            <span class="text-price ">ESTIMATE SHIPPING AND TAX</span>
+           <p style="
+           margin-bottom: 21px;"></p>
            <div class="row ">
              <div class="col">
                 <select class="custom-select mr-sm-2 select-normal" id="inlineFormCustomSelect">
-                    <option selected>Country</option>
+                    <option selected> Country</option>
                 </select>
                 <p></p>
                 <select class="custom-select mr-sm-2 select-normal " id="inlineFormCustomSelect">
@@ -200,7 +212,7 @@
             <span class="text-price">COUPON DISCOUNT</span>
             <p>
                 <div class="form-group">
-                    <label for="formGroupExampleInput">Enter Your Coupon Code Here</label>
+                    <label for="formGroupExampleInput"  class="text-tax-discount-total">Enter Your Coupon Code Here</label>
                     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
                 </div>
             </p>
@@ -210,11 +222,110 @@
          </div>
          <div class="col-4">
             <span class="text-price">CART TOTAL</span>
-
+            <p style="
+           margin-bottom: 17px;"></p>
+            <div class="row">
+              <div class="col">
+                <p class="text-tax-discount-total">Subtotal</p>
+                <p class="text-tax-discount-total">Shipping</p>
+              </div>
+              <div class="col text-right">
+                <p class="text-tax-discount-total">$415.00</p>
+                <p class="text-tax-discount-total">Free Shipping</p>
+              </div> 
+            </div>
+            <div class="row">
+              <div class="col-12">
+                _____________________________________________________
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p>Grandtotal</p>
+              </div>
+              <div class="col text-right">
+                <p>$415.00</p>
+                <button>
+                  <img src="images/buttProcessed.png" alt="Delete">
+                </button>
+              </div> 
+            </div>
          </div>
       </div>
     </div>
   </div>
-
+  <div class="BOOKNOW">
+    <p class="text-center text-now">
+      MAKE A BOOK FREE APPOINMENT 
+      <button style="margin-left:70px;">
+        <img src="images/booknow.png" alt="Book NOW!">
+      </button>
+    </p>
+    
+  </div>
+  <div class="bottom-bar">
+    <div class="container">
+      <div class="row text-left bottom-lnfo">
+        <div class="col number">
+        <img src="images/negLogo.png" alt="Logo">  
+        <p><span class="font-weight-bold">ADDRESS:</span> 28 Green Tower, Street Name New York City, USA</p>
+        <p><span class="font-weight-bold">TELEPHONE:</span> +89017 222 333</p>
+        <p><span class="font-weight-bold">EMAIL:</span> contact@shopieee.com</p>
+        </div>
+        <div class="col number">
+          <p class="font-weight-bold">SERVICES</p>
+          <p><a href="">About us</a></p>
+          <p><a href="">Return Policy</a></p>
+          <p><a href="">Our Blog</a></p>
+          <p><a href="">Contact us</a></p>
+          <p><a href="">Terms & Condition</a></p>
+        </div>
+        <div class="col number">
+          <p class="font-weight-bold">USEFUL LINKS</p>
+          <p><a href="">Home</a></p>
+          <p><a href="">Our Servies</a></p>
+          <p><a href="">About Us</a></p>
+          <p><a href="">How it works</a></p>
+          <p><a href="">FAQ`s</a></p>
+        </div>
+        <div class="col number">
+          <p class="font-weight-bold">NEWSLETTER</p>
+          <p>Subsribe by our newsletter and get update protidin</p>
+          <div class="form-group">  
+             <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Email address">
+          </div>
+          <button>
+              <img src="images/Subscribe.png" alt="Delete">
+          </button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="bot-info">
+    <div class="container">
+      <div class="row">
+        <div class="col number">
+            <span class="color-fa"><i class="fab fa-facebook-f"></i><span class="fa-margin"></span></span>
+            <span class="color-fa"><i class="fab fa-twitter"></i><span class="fa-margin"></span></span>
+            <span class="color-fa"><i class="fab fa-google-plus-g"></i><span class="fa-margin"></span></span>
+            <span class="color-fa"><i class="fab fa-instagram"></i><span class="fa-margin"></span></span>
+            <span class="color-fa"><i class="fab fa-pinterest-p"></i><span class="fa-margin"></span></span>
+            <span class="color-fa"><i class="fas fa-shopping-cart"></i><span class="fa-margin"></span></span> 
+        </div>
+        <div class="col">
+          <p class="number">Copyright	&#169; 2016-<span class="tink">Tinker</span> themes</p>
+        </div>
+        <div class="col number">
+            <span class="color-fa"><i class="fab fa-cc-visa"></i><span class="fa-margin"></span></span>
+            <span class="color-fa"><i class="fab fa-cc-mastercard"></i><span class="fa-margin"></span></span>
+            <span class="color-fa"><i class="fab fa-cc-amex"></i><span class="fa-margin"></span></span>
+            <span class="color-fa"><i class="fab fa-cc-mastercard"></i><span class="fa-margin"></span></span>
+            <span class="color-fa"><i class="fab fa-cc-paypal"></i><span class="fa-margin"></span></span> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
 </body>
 </html>
